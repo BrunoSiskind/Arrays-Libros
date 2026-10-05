@@ -397,6 +397,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 3647725304418760578, guid: 8a528fd5772ace944b63af04239beb9e,
+        type: 3}
+      propertyPath: reservado
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3647725304418760579, guid: 8a528fd5772ace944b63af04239beb9e,
         type: 3}
       propertyPath: m_Name
@@ -1135,6 +1140,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 3647725304418760578, guid: 8a528fd5772ace944b63af04239beb9e,
+        type: 3}
+      propertyPath: reservado
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3647725304418760579, guid: 8a528fd5772ace944b63af04239beb9e,
         type: 3}
       propertyPath: m_Name
