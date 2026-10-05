@@ -10,6 +10,8 @@ public class AlquilerVehiculos : MonoBehaviour
     void Start()
     {
         ResetearVehiculos();
+        vehiculos = FindObjectsOfType<Vehiculo>();
+        vehiculos[0].CartelPromo.SetActive(false);
     }
 
     // Update is called once per frame
@@ -17,7 +19,7 @@ public class AlquilerVehiculos : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.R))
         {
-
+            
         }   
     }
 
