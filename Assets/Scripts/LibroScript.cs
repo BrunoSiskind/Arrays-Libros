@@ -11,12 +11,13 @@ public class LibroScript : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-         renderer = GetComponent<MeshRenderer>();        
+         renderer = GetComponent<MeshRenderer>();     
     }
 
     private void Update()
     {
         AsignarColor();
+        
     }
 
     void AsignarColor()
